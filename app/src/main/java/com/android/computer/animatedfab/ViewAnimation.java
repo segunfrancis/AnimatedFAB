@@ -7,7 +7,7 @@ import android.view.View;
 public class ViewAnimation {
 
     public static boolean rotateFab(View view, boolean rotate) {
-        view.animate().setDuration(200)
+        view.animate().setDuration(300)
                 .setListener(new AnimatorListenerAdapter() {
                     @Override
                     public void onAnimationEnd(Animator animation) {
@@ -21,7 +21,7 @@ public class ViewAnimation {
         view.setVisibility(View.VISIBLE);
         view.setAlpha(0f);
         view.setTranslationY(view.getHeight());
-        view.animate().setDuration(200).translationY(0)
+        view.animate().setDuration(300).translationY(0)
                 .setListener(new AnimatorListenerAdapter() {
                     @Override
                     public void onAnimationEnd(Animator animation) {
@@ -35,7 +35,7 @@ public class ViewAnimation {
         view.setVisibility(View.VISIBLE);
         view.setAlpha(1f);
         view.setTranslationY(0);
-        view.animate().setDuration(200).translationY(view.getHeight())
+        view.animate().setDuration(300).translationY(view.getHeight())
                 .setListener(new AnimatorListenerAdapter() {
                     @Override
                     public void onAnimationEnd(Animator animation) {
