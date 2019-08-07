@@ -14,7 +14,7 @@ Clone this repository and import into android studio
 Use the android studio _Build Variants_ button to choose between **production** and **staging** flavours combined with **debug** and **release** build types.
 
 ## Screenshots
-![screen1]()
+![screen1](https://github.com/segunfrancis/AnimatedFAB/blob/master/GIF-190807_061838.mp4)
 
 ## APK file
 You can download the APK file for this project [here]()
