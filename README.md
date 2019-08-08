@@ -15,6 +15,3 @@ Use the android studio _Build Variants_ button to choose between **production** 
 
 ## Screenshots
 ![screen](https://github.com/segunfrancis/AnimatedFAB/blob/master/GIF-190807_060821.gif)
-
-## APK file
-You can download the APK file for this project [here]()
